@@ -1,0 +1,106 @@
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px black;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li + li {
+  margin-top: 4em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+input {
+  font: 1em san-serif;
+}
+textarea {
+  font: 1em san-serif;
+}
+
+textarea {
+  vertical-align: center;
+}
+
+button {
+  margin-left: 10em;
+  margin-top: 0.3em;
+}
+.main {
+  max-width: 960px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+input {
+  display: block;
+  margin-bottom: 16px;
+}
+label {
+  display: block;
+  margin-bottom: 16px;
+}
+.main {
+  width: 380px;
+  height: 650px;
+  border: 2px solid white;
+  margin-bottom: 8px;
+  background-color: white;
+  border-radius: 6px;
+  margin: 8px;
+  display: grid;
+  grid-template-columns: center;
+}
+.page {
+  width: 900px;
+  height: 800px;
+  border: 2px solid white;
+  margin-bottom: 8px;
+  background: linear-gradient(115deg, #56d8e4 5%, #9f01ea 90%);
+  margin: 8px;
+}
+
+.main {
+  max-width: 60ch;
+  margin-top: 6em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+textarea {
+  border: none;
+  margin-left: 1.8em;
+}
+.button {
+  width: 320px;
+  height: 30px;
+  background: linear-gradient(115deg, #9f01ea 5%, #56d8e4 90%);
+  margin-top: 3.8em;
+  border: none;
+
+  border-radius: 25px;
+}
+.header {
+  margin-left: 2.8em;
+  margin-top: 0.5em;
+}
+.message {
+  margin-left: 1em;
+}
